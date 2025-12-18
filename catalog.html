@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+
+            <nav class="navigation">
+                <ul class="header_nav">
+                    <li class="logo"><a href="index.html">Fashion Hub</a></li>
+                    <li class="header_links"><a href="catalog.html">Каталог</a></li>
+                    <li class="header_links"><a href="about.html">О нас</a></li>
+                    <li class="header_links"><a href="contacts.html">Контакты</a></li>
+                    <li class="header_links"><a href="cart.html">Корзина</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
+            <section class="catalog">
+
+                <div class="catalog_header">
+                    <h2>Каталог одежды</h2>
+
+                    <div class="catalog_sort">
+                        <label for="sort">Сортировать по:</label>
+                        <select name="sort" id="sort">
+                            <option value="По популярности">По популярности</option>
+                            <option value="По возрастанию цены">По возрастанию цены</option>
+                            <option value="По убыванию цены">По убыванию цены</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <div class="catalog_layout">
+
+                    <aside class="filters">
+                        <h3>Категории</h3>
+                        <ul class="filter_list">
+                            <li><a href="#">Мужская одежда</a></li>
+                            <li><a href="#">Женская одежда</a></li>
+                            <li><a href="#">Аксесуары</a></li>
+                            <li><a href="#">Обувь</a></li>
+                        </ul>
+
+                        <h3>Размеры</h3>
+                        <ul class="filter_list">
+                            <li><label><input type="checkbox">XS</label></li>
+                            <li><label><input type="checkbox">S</label></li>
+                            <li><label><input type="checkbox">M</label></li>
+                            <li><label><input type="checkbox">L</label></li>
+                            <li><label><input type="checkbox">XL</label></li>
+                        </ul>
+
+                        <h3>Цвет</h3>
+                        <ul class="filter_list">
+                            <li><label><input type="checkbox">Черный</label></li>
+                            <li><label><input type="checkbox">Белый</label></li>
+                            <li><label><input type="checkbox">Синий</label></li>
+                            <li><label><input type="checkbox">Красный</label></li>
+                            <li><label><input type="checkbox">Зеленый</label></li>
+                        </ul>
+
+                        <h3>Цена</h3>
+                        <form action="/process_form" class="price_filter">
+                            <div class="price_row">
+                                <label for="number">От:</label>
+                                <input type="number" id="number" placeholder="0">
+                            </div>
+
+                            <div class="price_row">
+                                <label for="number">До:</label>
+                                <input type="number" id="number" placeholder="20.000">
+                            </div>
+
+                            <button type="submit" class="btn_filter">Применить</button>
+                        </form>
+
+                    </aside>
+
+                    <div class="products">
+                        <div class="product_card">
+                            <a class="product_card_link" href="product.html">
+                                <div class="product_images">
+                                    <img class="front" width="400" src="images/Winter Puffy free form black.jpg" alt="">
+                                    <img class="back" width="400" src="images/Winter Puffy free form black BACK.jpg"
+                                        alt="">
+                                </div>
+                                <figcaption>Winter Puffy free form black</figcaption>
+                                <span>13.999₽</span>
+                            </a>
+                        </div>
+                        <div class="product_card">
+                            <a class="product_card_link" href="product.html">
+                                <div class="product_images">
+                                    <img class="front" width="400" src="images/Winter Puffy free form grey.jpg" alt="">
+                                    <img class="back" width="400" src="images/Winter Puffy free form grey BACK.jpg"
+                                        alt="">
+                                </div>
+                                <figcaption>Winter Puffy free form grey</figcaption>
+                                <span>13.999₽</span>
+                            </a>
+                        </div>
+                        <div class="product_card">
+                            <a class="product_card_link" href="product.html">
+                                <div class="product_images">
+                                    <img class="front" width="400" src="images/Winter Puffy free form milk.jpg" alt="">
+                                    <img class="back" width="400" src="images/Winter Puffy free form milk BACK.jpg"
+                                        alt="">
+                                </div>
+                                <figcaption>Winter Puffy free form milk</figcaption>
+                                <span>13.999₽</span>
+                            </a>
+                        </div>
+                        <div class="product_card">
+                            <a class="product_card_link" href="product.html">
+                                <div class="product_images">
+                                    <img class="front" width="400" src="images/Зимняя куртка “Puffy Tag” black.jpg"
+                                        alt="">
+                                    <img class="back" width="400" src="images/Зимняя куртка “Puffy Tag” black BACK.jpg"
+                                        alt="">
+                                </div>
+                                <figcaption>Зимняя куртка “Puffy Tag” black</figcaption>
+                                <span>12.599₽</span>
+                            </a>
+                        </div>
+                        <div class="product_card">
+                            <a class="product_card_link" href="product.html">
+                                <div class="product_images">
+                                    <img class="front" width="400" src="images/Зимняя куртка “Puffy Tag” milk.jpg"
+                                        alt="">
+                                    <img class="back" width="400" src="images/Зимняя куртка “Puffy Tag” milk BACK.jpg"
+                                        alt="">
+                                </div>
+                                <figcaption>Зимняя куртка “Puffy Tag”</figcaption>
+                                <span>12.599₽</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="pagination">
+                    <a href="" class="page_btn">Назад</a>
+                    <a href="" class="page_btn">1</a>
+                    <a href="" class="page_btn">2</a>
+                    <a href="" class="page_btn">3</a>
+                    <span class="dots">...</span>
+                    <a href="" class="page_btn">10</a>
+                    <a href="" class="page_btn">Вперед</a>
+                </div>
+
+            </section>
+        </main>
+
+    </div>
+
+    <footer>
+        <div class="footer_wrapper">
+            <p>© 2025 Fashion Hub. Все права защищены.</p>
+
+            <nav>
+                <ul class="footer_list">
+                    <li><a class="footer_links" href="">Политика конфиденциальности</a></li>
+                    <li><a class="footer_links" href="">Условия использования</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>

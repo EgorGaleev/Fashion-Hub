@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+
+            <nav class="navigation">
+                <ul class="header_nav">
+                    <li class="logo"><a href="index.html">Fashion Hub</a></li>
+                    <li class="header_links"><a href="catalog.html">Каталог</a></li>
+                    <li class="header_links"><a href="about.html">О нас</a></li>
+                    <li class="header_links"><a href="contacts.html">Контакты</a></li>
+                    <li class="header_links"><a href="cart.html">Корзина</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
+
+            <h1 class="cart_title">Корзина</h1>
+            <div class="cart_wrapper">
+                <div class="cart_nav">
+                    <span>Товар</span>
+                    <span>Цена</span>
+                    <span>Количество</span>
+                    <span>Сумма</span>
+                    <span>Действие</span>
+                </div>
+
+                <div class="cart_first">
+                    <a class="cart_product" href="product.html">
+                        <img width="150px" src="images/Winter Puffy free form black.jpg" alt="">
+                        <span>Winter Puffy free form black</span>
+                    </a>
+                    <span>13.999₽</span>
+                    <input type="number" value="1" min="1">
+                    <span>13.999₽</span>
+                    <button class="delete_btn">Удалить</button>
+                </div>
+
+                <div class="cart_first">
+                    <a class="cart_product" href="product.html">
+                        <img width="150px" src="images/Зимняя куртка “Puffy Tag” milk.jpg" alt="">
+                        <span>Зимняя куртка “Puffy Tag” milk</span>
+                    </a>
+                    <span>12.599₽</span>
+                    <input type="number" value="1" min="1">
+                    <span>12.599₽</span>
+                    <button class="delete_btn">Удалить</button>
+                </div>
+            </div>
+
+            <section class="order">
+                <div class="order_left">
+                    <p>Промежуточный итог: <span>26598 ₽</span></p>
+                    <p>Доставка: <span>Бесплатно</span></p>
+                    <p class="full">Итого: <span>26598 ₽</span></p>
+                </div>
+
+                <div class="order_right">
+                    <a href="checkout.html" class="left_btn">Оформить заказ</a>
+                    <a href="catalog.html" class="right_btn">Продолжить покупки</a>
+                </div>
+            </section>
+        </main>
+
+    </div>
+
+
+    <footer>
+        <div class="footer_wrapper">
+            <p>© 2025 Fashion Hub. Все права защищены.</p>
+
+            <nav>
+                <ul class="footer_list">
+                    <li><a class="footer_links" href="">Политика конфиденциальности</a></li>
+                    <li><a class="footer_links" href="">Условия использования</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>

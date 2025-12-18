@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+
+            <nav class="navigation">
+                <ul class="header_nav">
+                    <li class="logo"><a href="index.html">Fashion Hub</a></li>
+                    <li class="header_links"><a href="catalog.html">Каталог</a></li>
+                    <li class="header_links"><a href="about.html">О нас</a></li>
+                    <li class="header_links"><a href="contacts.html">Контакты</a></li>
+                    <li class="header_links"><a href="cart.html">Корзина</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main class="checkout">
+            <div class="checkout_left">
+                <h1 class="checkout_title">Оформление заказа</h1>
+            </div>
+
+            <div class="checkout_middle">
+                <div class="address">
+                    <h2 class="title_address">Адрес доставки</h2>
+
+                    <form action="" class="form_address">
+                        <div class="address_group">
+                            <label for="name">ФИО :</label>
+                            <input type="text" name="name" id="name">
+                        </div>
+                        <div class="address_group">
+                            <label for="address">Адрес :</label>
+                            <input type="text" name="address" id="address" placeholder="Улица, дом, квартира">
+                        </div>
+                        <div class="address_group">
+                            <label for="city">Город :</label>
+                            <input type="text" name="city" id="city">
+                        </div>
+                        <div class="address_group">
+                            <label for="post">Почтовый индекс :</label>
+                            <input type="text" name="post" id="post">
+                        </div>
+                        <div class="address_group">
+                            <label for="country">Город :</label>
+                            <select name="country" id="country">
+                                <option value="russia">Россия</option>
+                                <option value="belarus">Беларусь</option>
+                                <option value="kazahstan">Казахстан</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="payment">
+                    <h2 class="payment_title">Способ оплаты</h2>
+
+                    <form action="" class="payment_form">
+                        <label for="card">
+                            <input type="radio" name="payment" id="card">
+                            Visa / МИР / MasterCard
+                        </label>
+
+                        <label for="paypal">
+                            <input type="radio" name="payment" id="paypal">
+                            PayPal
+                        </label>
+
+                        <label for="cash">
+                            <input type="radio" name="payment" id="cash">
+                            Наличными при получении
+                        </label>
+                    </form>
+                </div>
+
+                <div class="checkout_button">
+                    <a href="checkout.html" class="checkout_btn">Подтвердить заказ</a>
+                    <a href="catalog.html" class="right_btn checkout_btn_right">← Продолжить покупки</a>
+                </div>
+            </div>
+
+            <div class="checkout_right">
+                <h2 class="right_title">Ваш заказ</h2>
+
+                <div class="checkout_card">
+                    <a class="cart_product" href="product.html">
+                        <img width="50px" src="images/Winter Puffy free form black.jpg" alt="">
+                        <span>Winter Puffy free form black x 1</span>
+                    </a>
+                    <span>13.999₽</span>
+                </div>
+
+                <div class="checkout_card">
+                    <a class="cart_product" href="product.html">
+                        <img width="50px" src="images/Зимняя куртка “Puffy Tag” milk.jpg" alt="">
+                        <span>Зимняя куртка “Puffy Tag” milk x 1</span>
+                    </a>
+                    <span>12.599₽</span>
+                </div>
+
+                <div class="checout_price">
+                    <p>Итого : <span>26598 ₽</span></p>
+                </div>
+            </div>
+        </main>
+
+
+    </div>
+
+    <footer>
+        <div class="footer_wrapper">
+            <p>© 2025 Fashion Hub. Все права защищены.</p>
+
+            <nav>
+                <ul class="footer_list">
+                    <li><a class="footer_links" href="">Политика конфиденциальности</a></li>
+                    <li><a class="footer_links" href="">Условия использования</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>

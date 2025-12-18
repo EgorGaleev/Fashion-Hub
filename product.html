@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+
+            <nav class="navigation">
+                <ul class="header_nav">
+                    <li class="logo"><a href="index.html">Fashion Hub</a></li>
+                    <li class="header_links"><a href="catalog.html">Каталог</a></li>
+                    <li class="header_links"><a href="about.html">О нас</a></li>
+                    <li class="header_links"><a href="contacts.html">Контакты</a></li>
+                    <li class="header_links"><a href="cart.html">Корзина</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
+            <div class="product_details">
+                <div class="details_images">
+                    <div class="details_main_images">
+                        <img width="400" src="images/Winter Puffy free form black.jpg" alt="">
+                    </div>
+
+                    <div class="detail_thumb_images">
+                        <img width="100" height="120" src="images/d1.jpg" alt="">
+                        <img width="100" height="120" src="images/d2.jpg" alt="">
+                        <img width="100" height="120" src="images/d3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="details_info">
+                    <h1 class="details_title">Winter Puffy free form black</h1>
+
+                    <span>13.999₽</span>
+
+                    <p class="details_text">Зимняя короткая минималистичная куртка с капюшоном. Трёхслойная мембрана,
+                        водонепроницаемость 5000 мм и паропроницаемость 5000 г/м2, на основе утеплителя ISOSOFT.
+                    </p>
+
+                    <form class="product-details__options">
+                        <div class="form-group">
+                            <label for="size">Размер:</label>
+                            <select id="size">
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="color">Цвет:</label>
+                            <div class="color-options">
+                                <label>
+                                    <input type="radio" name="color" value="коричневый">
+                                    <span class="color-option color-option--black"></span>
+                                </label>
+                                <label>
+                                    <input type="radio" name="color" value="белый">
+                                    <span class="color-option color-option--white"></span>
+                                </label>
+                                <label>
+                                    <input type="radio" name="color" value="черный">
+                                    <span class="color-option color-option--milk"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="button button--primary button--large">Добавить в корзину</button>
+                    </form>
+
+                </div>
+            </div>
+        </main>
+
+
+    </div>
+
+    <footer>
+        <div class="footer_wrapper">
+            <p>© 2025 Fashion Hub. Все права защищены.</p>
+
+            <nav>
+                <ul class="footer_list">
+                    <li><a class="footer_links" href="">Политика конфиденциальности</a></li>
+                    <li><a class="footer_links" href="">Условия использования</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
